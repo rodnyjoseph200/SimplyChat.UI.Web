@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{926802BA-609F-4514-9523-5F90F8AE9920}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{1724C6EB-8737-46B6-8C01-20A41C5AB322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspire", "Aspire", "{47CEAE92-0433-4B36-AC59-A13785567325}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{813E7721-FAFB-4A71-AAA1-5245B4F3960D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BB16C2AA-509E-44AF-AA81-A28657D4FA26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyChat.Web.Client", "src\Client\SimplyChat.Web.Client\SimplyChat.Web.Client.csproj", "{9B574D7E-497D-4881-A73D-3816FF73D179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyChat.Web", "src\Server\SimplyChat.Web\SimplyChat.Web.csproj", "{77A778A5-6F1C-4D1A-BDB5-2B036B82E091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B574D7E-497D-4881-A73D-3816FF73D179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B574D7E-497D-4881-A73D-3816FF73D179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B574D7E-497D-4881-A73D-3816FF73D179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B574D7E-497D-4881-A73D-3816FF73D179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A778A5-6F1C-4D1A-BDB5-2B036B82E091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A778A5-6F1C-4D1A-BDB5-2B036B82E091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A778A5-6F1C-4D1A-BDB5-2B036B82E091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A778A5-6F1C-4D1A-BDB5-2B036B82E091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{926802BA-609F-4514-9523-5F90F8AE9920} = {813E7721-FAFB-4A71-AAA1-5245B4F3960D}
+		{1724C6EB-8737-46B6-8C01-20A41C5AB322} = {813E7721-FAFB-4A71-AAA1-5245B4F3960D}
+		{47CEAE92-0433-4B36-AC59-A13785567325} = {813E7721-FAFB-4A71-AAA1-5245B4F3960D}
+		{9B574D7E-497D-4881-A73D-3816FF73D179} = {1724C6EB-8737-46B6-8C01-20A41C5AB322}
+		{77A778A5-6F1C-4D1A-BDB5-2B036B82E091} = {926802BA-609F-4514-9523-5F90F8AE9920}
+	EndGlobalSection
+EndGlobal
