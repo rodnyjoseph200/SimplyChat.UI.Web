@@ -1,7 +1,4 @@
-﻿@page "/Error"
-@using System.Diagnostics
-
-<PageTitle>Error</PageTitle>
+﻿@using System.Diagnostics
 
 <h1 class="text-danger">Error.</h1>
 <h2 class="text-danger">An error occurred while processing your request.</h2>
@@ -24,7 +21,7 @@
     and restarting the app.
 </p>
 
-@code{
+@code {
     [CascadingParameter]
     private HttpContext? HttpContext { get; set; }
 
